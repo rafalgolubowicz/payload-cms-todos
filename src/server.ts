@@ -24,6 +24,9 @@ const start = async () => {
 
   const port = process.env.PORT || 3000;
   
+  // Log app port
+  console.info(`Port: ${port}`);
+  
   app.listen(port);
 }
 
